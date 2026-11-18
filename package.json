@@ -1,0 +1,13 @@
+{
+  "name": "pmr-absen-piket-import",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import": "node --env-file=.env import.js",
+    "cek": "node --env-file=.env cek-login.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "xlsx": "^0.18.5"
+  }
+}
